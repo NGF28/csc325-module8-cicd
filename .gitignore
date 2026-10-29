@@ -1,0 +1,11 @@
+# Never commit local secrets or virtual environments.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
