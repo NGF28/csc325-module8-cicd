@@ -14,5 +14,6 @@ def greeting(request):
         "message": "Hello from CSC 325!",
         "version": "2",
         "course": "CSC 325"
+        "assignment": "Module 8"
     })
 
