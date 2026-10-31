@@ -27,7 +27,7 @@ class ApiEndpointTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data["course"], "CSC 325")
 
-    def test_greeting_includes_course(self):
+    def test_greeting_includes_assignment(self):
         response = self.client.get("/api/greeting/")
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data["course"], "CSC 325")
+        self.assertEqual(response.data["assignment"], "Module 8")
