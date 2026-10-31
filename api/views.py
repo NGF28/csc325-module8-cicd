@@ -12,7 +12,7 @@ def health(request):
 def greeting(request):
     return Response({
         "message": "Hello from CSC 325!",
-        "version": "2"
+        "version": "2",
+        "course": "CSC 325"
     })
-
 
