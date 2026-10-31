@@ -10,5 +10,9 @@ def health(request):
 
 @api_view(["GET"])
 def greeting(request):
-    """Greeting endpoint; you'll update this for your recorded change."""
-    return Response({"message": "Hello from CSC 325!"})
+    return Response({
+        "message": "Hello from CSC 325!",
+        "version": "2",
+        "course": "CSC 325"
+    })
+
