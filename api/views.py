@@ -1,3 +1,4 @@
+
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
@@ -13,7 +14,6 @@ def greeting(request):
     return Response({
         "message": "Hello from CSC 325!",
         "version": "2",
-        "course": "CSC 325"
+        "course": "CSC 325",
         "assignment": "Module 8"
     })
-
